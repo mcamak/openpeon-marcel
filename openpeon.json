@@ -1,0 +1,64 @@
+{
+  "cesp_version": "1.0",
+  "name": "marcel",
+  "display_name": "Marcel",
+  "version": "1.0.0",
+  "description": "Legendary quotes of Marcel Merčiak.",
+  "author": {
+    "name": "Marián Čamák",
+    "github": "mcamak"
+  },
+  "license": "CC-BY-NC-4.0",
+  "language": "sk",
+  "categories": {
+    "session.start": {
+      "sounds": [
+        { "file": "sounds/01_krista-boha.mp3", "label": "Krista Boha vám do piče." },
+        { "file": "sounds/10_no-no.mp3", "label": "No...no..." },
+        { "file": "sounds/12_pice-aj-s-takou-spolupracou.mp3", "label": "Piče aj s takou spoluprácou, toto naozaj! Prisa'm Bohu." }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        { "file": "sounds/04_do-pici-tam-kurva.mp3", "label": "Do piči tam. Kurva." },
+        { "file": "sounds/05_dobre-okay-tak-dobre.mp3", "label": "Dobre, okej, tak....dobre." },
+        { "file": "sounds/07_kurva.mp3", "label": "Kurva." },
+        { "file": "sounds/17_do-pice.mp3", "label": "Do piče." }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        { "file": "sounds/10_no-no.mp3", "label": "No...no..." },
+        { "file": "sounds/11_parada.mp3", "label": "Paráda." },
+        { "file": "sounds/15_dakujem-to-je-vsetko.mp3", "label": "Super, ďakujem pekne. To je všetko." }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        { "file": "sounds/08_nechate-ma-kokotinu-povedat.mp3", "label": "Necháte ma kokotinu povedať" },
+        { "file": "sounds/13_to-je-katastrofa.mp3", "label": "To je katastrofa." },
+        { "file": "sounds/14_uz-som-naozaj-nasraty-do-pici.mp3", "label": "Už som naozaj nasratý do piči!" }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        { "file": "sounds/03_co-riesis-ake-veci-riesis.mp3", "label": "Čo riešiš? Aké veci riešiš?" },
+        { "file": "sounds/06_osemkrat-sa-nieco-pytam.mp3", "label": "Osemkrát sa niečo pýtam do piče, a vy mi neviete povedať ani mäkké F" },
+        { "file": "sounds/09_nekomunikuju-to-je-katastrofa.mp3", "label": "Nekomunikujú - to je katastrofa toto" },
+        { "file": "sounds/12_pice-aj-s-takou-spolupracou.mp3", "label": "Piče aj s takou spoluprácou, toto naozaj! Prisa'm Bohu." }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        { "file": "sounds/03_co-riesis-ake-veci-riesis.mp3", "label": "Čo riešiš? Aké veci riešiš?" },
+        { "file": "sounds/16_preco-ste-ma-tak-zarezali-do-pici.mp3", "label": "Prečo ste ma tak zarezali do piči?!" }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        { "file": "sounds/02_ale-ani-ja-si-tu-kokot-nevalam.mp3", "label": "Ale ani ja si tu kokot neváľam" },
+        { "file": "sounds/14_uz-som-naozaj-nasraty-do-pici.mp3", "label": "Už som naozaj nasratý do piči!" }
+      ]
+    }
+  }
+}
