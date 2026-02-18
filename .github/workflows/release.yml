@@ -1,0 +1,23 @@
+name: Generate Release Checksum
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  checksum:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Needed to upload assets to the release
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Generate SHA256
+        run: |
+          sha256sum openpeon-marcel-1.0.0.zip > checksums.txt
+
+      - name: Upload Checksum to Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: checksums.txt
