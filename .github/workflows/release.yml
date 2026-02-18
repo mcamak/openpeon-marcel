@@ -15,7 +15,7 @@ jobs:
 
       - name: Generate SHA256
         run: |
-          sha256sum openpeon-marcel-1.0.0.zip > checksums.txt
+          sha256sum openpeon-marcel-*.zip openpeon-marcel-*.tar.gz > checksums.txt
 
       - name: Upload Checksum to Release
         uses: softprops/action-gh-release@v2
