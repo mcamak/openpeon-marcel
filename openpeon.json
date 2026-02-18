@@ -14,8 +14,7 @@
     "session.start": {
       "sounds": [
         { "file": "sounds/01_krista-boha.mp3", "label": "Krista Boha vám do piče." },
-        { "file": "sounds/10_no-no.mp3", "label": "No...no..." },
-        { "file": "sounds/12_pice-aj-s-takou-spolupracou.mp3", "label": "Piče aj s takou spoluprácou, toto naozaj! Prisa'm Bohu." }
+        { "file": "sounds/10_no-no.mp3", "label": "No...no..." }
       ]
     },
     "task.acknowledge": {
@@ -28,7 +27,6 @@
     },
     "task.complete": {
       "sounds": [
-        { "file": "sounds/10_no-no.mp3", "label": "No...no..." },
         { "file": "sounds/11_parada.mp3", "label": "Paráda." },
         { "file": "sounds/15_dakujem-to-je-vsetko.mp3", "label": "Super, ďakujem pekne. To je všetko." }
       ]
@@ -36,6 +34,7 @@
     "task.error": {
       "sounds": [
         { "file": "sounds/08_nechate-ma-kokotinu-povedat.mp3", "label": "Necháte ma kokotinu povedať" },
+        { "file": "sounds/12_pice-aj-s-takou-spolupracou.mp3", "label": "Piče aj s takou spoluprácou, toto naozaj! Prisa'm Bohu." },
         { "file": "sounds/13_to-je-katastrofa.mp3", "label": "To je katastrofa." },
         { "file": "sounds/14_uz-som-naozaj-nasraty-do-pici.mp3", "label": "Už som naozaj nasratý do piči!" }
       ]
